@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:contactList.xcodeproj">
+      location = "self:/Users/lecicki/Desktop/contactList/ContactList.xcodeproj">
    </FileRef>
 </Workspace>

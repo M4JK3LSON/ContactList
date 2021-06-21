@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901A7B112625E81E004095AC /* addItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901A7B102625E81E004095AC /* addItem.swift */; };
+		90249EAB26275B3100F96463 /* customeTableCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90249EAA26275B3100F96463 /* customeTableCellTableViewCell.swift */; };
+		90249EAD2627690C00F96463 /* contactClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90249EAC2627690C00F96463 /* contactClass.swift */; };
+		90E0605A264E97B8001B256A /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E06059264E97B8001B256A /* PopOverViewController.swift */; };
 		90E124FD2625A3B700FFE360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E124FC2625A3B700FFE360 /* AppDelegate.swift */; };
 		90E124FF2625A3B700FFE360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E124FE2625A3B700FFE360 /* ViewController.swift */; };
 		90E125022625A3B700FFE360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E125002625A3B700FFE360 /* Main.storyboard */; };
@@ -14,6 +18,9 @@
 		90E125072625A3B900FFE360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E125052625A3B900FFE360 /* LaunchScreen.storyboard */; };
 		90E125122625A3B900FFE360 /* contactListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E125112625A3B900FFE360 /* contactListTests.swift */; };
 		90E1251D2625A3B900FFE360 /* contactListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1251C2625A3B900FFE360 /* contactListUITests.swift */; };
+		90E1252B2625A96500FFE360 /* generalViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1252A2625A96500FFE360 /* generalViewClass.swift */; };
+		90E1252D2625A98300FFE360 /* modifyExistingItemClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1252C2625A98300FFE360 /* modifyExistingItemClass.swift */; };
+		90E1252F2625A9A000FFE360 /* settingsScreenClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1252E2625A9A000FFE360 /* settingsScreenClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +41,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		90E124F92625A3B700FFE360 /* contactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		901A7B102625E81E004095AC /* addItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItem.swift; sourceTree = "<group>"; };
+		90249EAA26275B3100F96463 /* customeTableCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customeTableCellTableViewCell.swift; sourceTree = "<group>"; };
+		90249EAC2627690C00F96463 /* contactClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactClass.swift; sourceTree = "<group>"; };
+		90E06059264E97B8001B256A /* PopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+		90E124F92625A3B700FFE360 /* ContactList.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E124FC2625A3B700FFE360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90E124FE2625A3B700FFE360 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90E125012625A3B700FFE360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90E125032625A3B900FFE360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90E125062625A3B900FFE360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90E125082625A3B900FFE360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90E1250D2625A3B900FFE360 /* contactListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E1250D2625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactList.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E125112625A3B900FFE360 /* contactListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactListTests.swift; sourceTree = "<group>"; };
 		90E125132625A3B900FFE360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90E125182625A3B900FFE360 /* contactListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E125182625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactList.temp_caseinsensitive_renameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E1251C2625A3B900FFE360 /* contactListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactListUITests.swift; sourceTree = "<group>"; };
 		90E1251E2625A3B900FFE360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E1252A2625A96500FFE360 /* generalViewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalViewClass.swift; sourceTree = "<group>"; };
+		90E1252C2625A98300FFE360 /* modifyExistingItemClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modifyExistingItemClass.swift; sourceTree = "<group>"; };
+		90E1252E2625A9A000FFE360 /* settingsScreenClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsScreenClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +101,9 @@
 		90E124FA2625A3B700FFE360 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90E124F92625A3B700FFE360 /* contactList.app */,
-				90E1250D2625A3B900FFE360 /* contactListTests.xctest */,
-				90E125182625A3B900FFE360 /* contactListUITests.xctest */,
+				90E124F92625A3B700FFE360 /* ContactList.temp_caseinsensitive_rename.app */,
+				90E1250D2625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameTests.xctest */,
+				90E125182625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +113,17 @@
 			children = (
 				90E124FC2625A3B700FFE360 /* AppDelegate.swift */,
 				90E124FE2625A3B700FFE360 /* ViewController.swift */,
+				90249EAC2627690C00F96463 /* contactClass.swift */,
+				90E1252A2625A96500FFE360 /* generalViewClass.swift */,
+				90249EAA26275B3100F96463 /* customeTableCellTableViewCell.swift */,
+				901A7B102625E81E004095AC /* addItem.swift */,
 				90E125002625A3B700FFE360 /* Main.storyboard */,
+				90E1252E2625A9A000FFE360 /* settingsScreenClass.swift */,
+				90E1252C2625A98300FFE360 /* modifyExistingItemClass.swift */,
 				90E125032625A3B900FFE360 /* Assets.xcassets */,
 				90E125052625A3B900FFE360 /* LaunchScreen.storyboard */,
 				90E125082625A3B900FFE360 /* Info.plist */,
+				90E06059264E97B8001B256A /* PopOverViewController.swift */,
 			);
 			path = contactList;
 			sourceTree = "<group>";
@@ -128,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90E124F82625A3B700FFE360 /* contactList */ = {
+		90E124F82625A3B700FFE360 /* ContactList.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90E125212625A3B900FFE360 /* Build configuration list for PBXNativeTarget "contactList" */;
+			buildConfigurationList = 90E125212625A3B900FFE360 /* Build configuration list for PBXNativeTarget "ContactList.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				90E124F52625A3B700FFE360 /* Sources */,
 				90E124F62625A3B700FFE360 /* Frameworks */,
@@ -140,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = contactList;
+			name = ContactList.temp_caseinsensitive_rename;
 			productName = contactList;
-			productReference = 90E124F92625A3B700FFE360 /* contactList.app */;
+			productReference = 90E124F92625A3B700FFE360 /* ContactList.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90E1250C2625A3B900FFE360 /* contactListTests */ = {
+		90E1250C2625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90E125242625A3B900FFE360 /* Build configuration list for PBXNativeTarget "contactListTests" */;
+			buildConfigurationList = 90E125242625A3B900FFE360 /* Build configuration list for PBXNativeTarget "ContactList.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				90E125092625A3B900FFE360 /* Sources */,
 				90E1250A2625A3B900FFE360 /* Frameworks */,
@@ -158,14 +179,14 @@
 			dependencies = (
 				90E1250F2625A3B900FFE360 /* PBXTargetDependency */,
 			);
-			name = contactListTests;
+			name = ContactList.temp_caseinsensitive_renameTests;
 			productName = contactListTests;
-			productReference = 90E1250D2625A3B900FFE360 /* contactListTests.xctest */;
+			productReference = 90E1250D2625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		90E125172625A3B900FFE360 /* contactListUITests */ = {
+		90E125172625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90E125272625A3B900FFE360 /* Build configuration list for PBXNativeTarget "contactListUITests" */;
+			buildConfigurationList = 90E125272625A3B900FFE360 /* Build configuration list for PBXNativeTarget "ContactList.temp_caseinsensitive_renameUITests" */;
 			buildPhases = (
 				90E125142625A3B900FFE360 /* Sources */,
 				90E125152625A3B900FFE360 /* Frameworks */,
@@ -176,9 +197,9 @@
 			dependencies = (
 				90E1251A2625A3B900FFE360 /* PBXTargetDependency */,
 			);
-			name = contactListUITests;
+			name = ContactList.temp_caseinsensitive_renameUITests;
 			productName = contactListUITests;
-			productReference = 90E125182625A3B900FFE360 /* contactListUITests.xctest */;
+			productReference = 90E125182625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90E124F42625A3B700FFE360 /* Build configuration list for PBXProject "contactList" */;
+			buildConfigurationList = 90E124F42625A3B700FFE360 /* Build configuration list for PBXProject "ContactList" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +238,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90E124F82625A3B700FFE360 /* contactList */,
-				90E1250C2625A3B900FFE360 /* contactListTests */,
-				90E125172625A3B900FFE360 /* contactListUITests */,
+				90E124F82625A3B700FFE360 /* ContactList.temp_caseinsensitive_rename */,
+				90E1250C2625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameTests */,
+				90E125172625A3B900FFE360 /* ContactList.temp_caseinsensitive_renameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E1252F2625A9A000FFE360 /* settingsScreenClass.swift in Sources */,
+				90E1252D2625A98300FFE360 /* modifyExistingItemClass.swift in Sources */,
+				90E0605A264E97B8001B256A /* PopOverViewController.swift in Sources */,
 				90E124FF2625A3B700FFE360 /* ViewController.swift in Sources */,
+				90E1252B2625A96500FFE360 /* generalViewClass.swift in Sources */,
+				90249EAB26275B3100F96463 /* customeTableCellTableViewCell.swift in Sources */,
+				901A7B112625E81E004095AC /* addItem.swift in Sources */,
 				90E124FD2625A3B700FFE360 /* AppDelegate.swift in Sources */,
+				90249EAD2627690C00F96463 /* contactClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		90E1250F2625A3B900FFE360 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 90E124F82625A3B700FFE360 /* contactList */;
+			target = 90E124F82625A3B700FFE360 /* ContactList.temp_caseinsensitive_rename */;
 			targetProxy = 90E1250E2625A3B900FFE360 /* PBXContainerItemProxy */;
 		};
 		90E1251A2625A3B900FFE360 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 90E124F82625A3B700FFE360 /* contactList */;
+			target = 90E124F82625A3B700FFE360 /* ContactList.temp_caseinsensitive_rename */;
 			targetProxy = 90E125192625A3B900FFE360 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contactList.app/contactList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactList.temp_caseinsensitive_rename.app/ContactList.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -498,7 +526,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contactList.app/contactList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactList.temp_caseinsensitive_rename.app/ContactList.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -543,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90E124F42625A3B700FFE360 /* Build configuration list for PBXProject "contactList" */ = {
+		90E124F42625A3B700FFE360 /* Build configuration list for PBXProject "ContactList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E1251F2625A3B900FFE360 /* Debug */,
@@ -552,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90E125212625A3B900FFE360 /* Build configuration list for PBXNativeTarget "contactList" */ = {
+		90E125212625A3B900FFE360 /* Build configuration list for PBXNativeTarget "ContactList.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E125222625A3B900FFE360 /* Debug */,
@@ -561,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90E125242625A3B900FFE360 /* Build configuration list for PBXNativeTarget "contactListTests" */ = {
+		90E125242625A3B900FFE360 /* Build configuration list for PBXNativeTarget "ContactList.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E125252625A3B900FFE360 /* Debug */,
@@ -570,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90E125272625A3B900FFE360 /* Build configuration list for PBXNativeTarget "contactListUITests" */ = {
+		90E125272625A3B900FFE360 /* Build configuration list for PBXNativeTarget "ContactList.temp_caseinsensitive_renameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E125282625A3B900FFE360 /* Debug */,
